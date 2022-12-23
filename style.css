@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    margin: 0 auto;
+    width: 80%;
+}
+.bg{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.bg h1{
+    color: white;
+    margin-top: 10px;
+    height: 420vh;
+}
+ul{
+    display: flex;
+}
+.aa{
+    margin-right: 50px;
+}
+ul button{
+    margin-top: 10px;
+    height: 40px;
+    padding: 7px 21px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+
+}
+ul button:hover{
+    color: white;
+    background-color: gray;
+}
+ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+ul li a{
+    padding-left: 20px;
+    color: gray;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: white;
+}
+.menu{
+    background-image: url(samuel-ferrara-1527pjeb6jg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-box-shadow: inset 0 -100px 100px -10px #000000;
+    -webkit-box-shadow: inset 0 -100px 100px -10px #000000;
+    box-shadow: inset 0 -100px 100px -10px #000000;
+    height: 80vh;
+}
+.text{
+    color: white;
+    width: 420px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 420px;
+}
+.menu p{
+    color: rgb(161, 161, 161);
+}
+.bar{
+    display: flex;
+    margin-left: 1000px;
+}
+.p{
+    padding-left: 10px;
+}
+.hh1{
+    margin-top: 60px;
+}
+.hh{
+    
+    color: white;
+    text-align: center;
+}
+.boxb{
+    background-image: url(https://www.idea2makemoney.com/wp-content/uploads/2021/10/3-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 600px;
+    padding-top: 450px;
+}
+.boxi{
+    background-image: url(https://cdn.britannica.com/28/116528-050-1CAC6728/Great-Court-Foster-and-Partners-British-Museum-2000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 600px;
+    margin-left: 10px;
+    padding-top: 450px;
+}
+.boxu{
+    background-image: url(https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/drone-photography/desktop/drone-photography_P4a_690x450.jpg.img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 600px;
+    padding-top: 450px;
+}
+.boxt{
+    background-image: url(https://i.guim.co.uk/img/media/f75f84778dc6c20e519223cdd39ec0f974f2c9b0/0_239_3583_2150/master/3583.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=679a9ea087d210112f70eda780c6fed1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 600px;
+    margin-left: 10px;
+    padding-top: 450px;
+}
+.box{
+    padding-bottom: 10px;
+    margin-left: 50px;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.box button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 21px;
+    align-items: baseline;
+}
+.box button:hover{
+    color: white;
+    background-color: gray;
+}
+.pic{
+    display: flex;
+}
+.picture{
+    margin-top: 100px;
+}
+.pos1{
+    color: rgb(211, 211, 211);
+    text-align: center;
+}
+.pos1:hover{
+    color: white;
+}
+.hhh1{
+    color: white;
+    text-align: center;
+}
+.pos1{
+    position: absolute;
+    top: 300vh;
+    left: 920px;
+}
+
+.bloc{
+    transition: 1s;
+}
+.scale:hover{
+   transform: scale(1.05,1.05);
+ }
